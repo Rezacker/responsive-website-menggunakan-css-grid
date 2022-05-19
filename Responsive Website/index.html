@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wakanda Merch</title>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="gambar">
+				<h2 class="heading">Wakanda Merch Shop</h2>
+				<p class="sub-heading">Hoodie and T-Shirt</p>
+			</div>
+			<div class="fitur fitur-1">
+				<h4 class="harga">IDR 320K</h4>
+				<p class="item">Hoodie</p>
+			</div>
+			<div class="fitur fitur-2">
+				<h4 class="harga">IDR 240K</h4>
+				<p class="item">T-Shirt</p>				
+			</div>
+		</header>
+
+		<nav class="menu">
+			<div class="menu-toggle">
+				<input type="checkbox">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>			
+			<div class="merek">
+				<h1>Wakanda Merch</h1>
+			</div>
+			<ul class="menu-list">
+				<li><a href="">Home</a></li>
+				<li><a href="">Produk</a></li>
+				<li><a href="">Tentang</a></li>
+				<li><a href="">Galeri</a></li>
+			</ul>
+		</nav>
+
+		<section class="services">
+			<div class="service">
+				<h3>Tutorial</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate quaerat fuga ea fugiat facere, numquam!</p>
+			</div>
+			<div class="service">
+				<h3>Berita</h3>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam porro a eveniet dolorum eos quisquam quidem.</p>
+			</div>
+			<div class="service">
+				<h3>Artikel</h3>
+				<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Qui molestias iste fugiat vero omnis, sit repudiandae.</p>
+			</div>
+			<div class="service">
+				<h3>Merchandise</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti temporibus tenetur aliquam, accusantium, alias ratione pariatur.</p>
+			</div>
+		</section>
+
+		<section class="galeri">
+			<h2>Galeri</h2>
+			<img src="https://source.unsplash.com/random/201x201" alt="">
+			<img src="https://source.unsplash.com/random/202x202" alt="">
+			<img src="https://source.unsplash.com/random/203x203" alt="">
+			<img src="https://source.unsplash.com/random/204x204" alt="">
+			<img src="https://source.unsplash.com/random/205x205" alt="">
+			<img src="https://source.unsplash.com/random/206x206" alt="">
+			<img src="https://source.unsplash.com/random/207x207" alt="">
+			<img src="https://source.unsplash.com/random/208x208" alt="">
+			<img src="https://source.unsplash.com/random/209x209" alt="">
+			<img src="https://source.unsplash.com/random/2010x2010" alt="">
+			<img src="https://source.unsplash.com/random/2011x2011" alt="">
+			<img src="https://source.unsplash.com/random/2012x2012" alt="">
+			<img src="https://source.unsplash.com/random/2013x2013" alt="">
+			<img src="https://source.unsplash.com/random/2014x2014" alt="">
+			<img src="https://source.unsplash.com/random/2015x2015" alt="">
+			<img src="https://source.unsplash.com/random/2016x2016" alt="">
+			<img src="https://source.unsplash.com/random/2017x2017" alt="">
+			<img src="https://source.unsplash.com/random/2018x2018" alt="">
+		</section>
+	</div>
+	<script>
+		const menuToggle = document.querySelector('.menu-toggle input');
+		const nav = document.querySelector('nav ul');
+
+		menuToggle.addEventListener('click', function() {
+			nav.classList.toggle('slide');
+		});
+	</script>
+</body>
+</html>
